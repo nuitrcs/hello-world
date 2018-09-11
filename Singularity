@@ -10,10 +10,10 @@ DINOSAUR=vanessasaurus
 export DINOSAUR
 
 %files
-rawr.sh /rawr.sh
+hello.sh /hello.sh
 
 %post
-chmod u+x /rawr.sh
+chmod u+x /hello.sh
 
 %runscript
-exec /bin/bash /rawr.sh
+exec /bin/bash /hello.sh
